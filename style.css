@@ -63,3 +63,18 @@ footer p{
 .cartao_conteudo_resposta{
     tranform:rotaey(180deg);
 }
+@media (max-width:560px){
+
+    body{
+        background:url(ìmg/bg-mobile.webp´),norepeat cover;
+}
+.cartao{
+    flex:1 0 calc(100%-rem)
+}
+.cartao_conteudo h3{
+    font-size: 3vw;
+}
+.cartao_conteudo p {
+    font-size:3.8vw;
+}
+}
